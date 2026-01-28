@@ -1,0 +1,8 @@
+{
+  "name": "Black Iris Meknes",
+  "description": "A premium cafeteria and restaurant landing page featuring an AI-powered taste assistant to help you choose your perfect meal.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
