@@ -43,24 +43,24 @@ const App: React.FC = () => {
             alt="Black Iris Interior" 
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute inset-0 bg-black/60"></div>
         </div>
-        <div className="relative z-10 px-6 max-w-4xl">
-          <span className="uppercase tracking-[0.4em] text-[#C5A059] font-bold mb-6 block animate-in fade-in slide-in-from-top-4 duration-700">
-            Premium Coffee & Fine Dining
+        <div className="relative z-10 px-6 max-w-5xl">
+          <span className="uppercase tracking-[0.5em] text-[#C5A059] font-bold mb-6 block animate-in fade-in slide-in-from-top-4 duration-700">
+            A Culinary Sanctuary of Unrivaled Sophistication
           </span>
-          <h1 className="text-6xl md:text-8xl mb-8 serif animate-in fade-in slide-in-from-bottom-8 duration-1000">
-            Experience Elegance <br/> in Meknes
+          <h1 className="text-6xl md:text-8xl lg:text-9xl mb-10 serif animate-in fade-in slide-in-from-bottom-8 duration-1000 leading-[1.1]">
+            The Rare Bloom of <br/> Refined Taste
           </h1>
-          <p className="text-xl md:text-2xl mb-10 text-stone-200 font-light max-w-2xl mx-auto leading-relaxed animate-in fade-in duration-1000 delay-300">
-            From artisanal sunrise espressos to gourmet candlelit dinners, Black Iris brings luxury to your daily routine.
+          <p className="text-xl md:text-2xl lg:text-3xl mb-12 text-stone-200 font-light max-w-3xl mx-auto leading-relaxed animate-in fade-in duration-1000 delay-300">
+            Step into a world where ancestral Moroccan grace converges with contemporary epicurean mastery. We invite you to transcend the everyday and discover the sublime in the heart of Meknes.
           </p>
-          <div className="flex flex-col md:flex-row gap-6 justify-center animate-in fade-in duration-1000 delay-500">
-            <a href="#menu" className="bg-[#C5A059] text-white px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition shadow-lg shadow-[#C5A059]/30">
-              View Our Menu
+          <div className="flex flex-col md:flex-row gap-8 justify-center animate-in fade-in duration-1000 delay-500">
+            <a href="#menu" className="bg-[#C5A059] text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-[#C5A059] transition-all duration-300 shadow-2xl shadow-black/20 uppercase tracking-widest">
+              Explore the Menu
             </a>
-            <a href="#contact" className="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-stone-900 transition shadow-xl">
-              Reserve a Table
+            <a href="#contact" className="bg-white/5 backdrop-blur-md border border-white/20 text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-stone-900 transition-all duration-300 shadow-xl uppercase tracking-widest">
+              Secure a Table
             </a>
           </div>
         </div>
